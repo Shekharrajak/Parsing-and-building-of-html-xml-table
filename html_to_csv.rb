@@ -1,5 +1,6 @@
 # run using ```rvm jruby-1.6.7 do  jruby "-J-Xmx2000m" "--1.9" tej.rb```
 
+# note : not working properly
 require 'rubygems'
 require 'nokogiri'
 require 'csv'
