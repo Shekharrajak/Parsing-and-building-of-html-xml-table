@@ -12,6 +12,7 @@ end
 puts headers
 # Foo
 # Bar
+
 # get table rows
 rows = []
 doc.xpath('//*/table/tbody/tr').each_with_index do |row, i|
