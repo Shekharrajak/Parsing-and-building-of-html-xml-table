@@ -9,3 +9,9 @@ document.at('table').search('tr').each do |row|
 
   puts CSV.generate_line(cells)
 end
+
+# outout : 
+
+# Foo,Bar
+# foofoo,barbar
+# foobar,barfoo
